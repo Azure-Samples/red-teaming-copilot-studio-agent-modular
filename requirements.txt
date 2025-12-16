@@ -1,0 +1,21 @@
+azure-ai-evaluation[redteam]>=1.0.1
+azure-identity>=1.15.0
+openai>=1.0.0
+azure-ai-projects==1.0.0
+python-dotenv>=1.0.0
+msal>=1.20.0
+msal-extensions>=1.0.0
+# Microsoft Copilot Studio Agent dependencies
+# Note: These are preview packages from test.pypi.org
+# Install with: pip install -r requirements.txt
+# Then manually install MCS preview packages:
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-core
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-authorization
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-connector
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-client
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-builder
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-authentication-msal
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-copilotstudio-client
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-hosting-aiohttp
+#   pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ microsoft-agents-storage
+

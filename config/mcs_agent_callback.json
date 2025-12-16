@@ -1,0 +1,29 @@
+{
+  "_comment": "Configuration for scanning Microsoft Copilot Studio Agent",
+  
+  "azure_ai_project": {
+    "project_endpoint": "${AZURE_PROJECT_ENDPOINT}"
+  },
+  
+  "mcs_agent": {
+    "tenant_id": "${TENANT_ID}",
+    "app_client_id": "${APP_CLIENT_ID}",
+    "environment_id": "${ENVIRONMENT_ID}",
+    "agent_identifier": "${AGENT_IDENTIFIER}"
+  },
+  
+  "target": {
+    "type": "mcs_agent_callback"
+  },
+  
+  "red_team": {
+    "risk_categories": ["Violence", "HateUnfairness", "Sexual", "SelfHarm"],
+    "attack_strategies": ["EASY"],
+    "num_objectives": 1,
+    "custom_prompts_path": ""
+  },
+  
+  "scan": {
+    "name": "MCS-Agent-Scan"
+  }
+}
